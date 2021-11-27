@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityModdingTools.Templates.BeatSaber", "UnityModdingTools.Templates.BeatSaber\UnityModdingTools.Templates.BeatSaber.csproj", "{D3825E33-DE40-431C-941B-020B1A3B7B3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSIPA Plugin (Bare)", "BSIPA Plugin (Bare)\BSIPA Plugin (Bare).csproj", "{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3825E33-DE40-431C-941B-020B1A3B7B3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3825E33-DE40-431C-941B-020B1A3B7B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3825E33-DE40-431C-941B-020B1A3B7B3A}.Debug|x86.ActiveCfg = Debug|x86
+		{D3825E33-DE40-431C-941B-020B1A3B7B3A}.Debug|x86.Build.0 = Debug|x86
+		{D3825E33-DE40-431C-941B-020B1A3B7B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3825E33-DE40-431C-941B-020B1A3B7B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3825E33-DE40-431C-941B-020B1A3B7B3A}.Release|x86.ActiveCfg = Release|x86
+		{D3825E33-DE40-431C-941B-020B1A3B7B3A}.Release|x86.Build.0 = Release|x86
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Debug|x86.ActiveCfg = Debug|x86
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Debug|x86.Build.0 = Debug|x86
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Release|x86.ActiveCfg = Release|x86
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38368BF1-E23C-4465-AE8A-F8B74CBE7B63}
+	EndGlobalSection
+EndGlobal
