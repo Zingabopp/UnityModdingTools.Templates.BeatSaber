@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="UnityModdingTools.Templates.BeatSaber.107d46bc-376e-4542-8383-e9d8b5568457" Version="1.0.0" Language="en-US" Publisher="Zingabopp" />
+        <Identity Id="UnityModdingTools.Templates.BeatSaber.107d46bc-376e-4542-8383-e9d8b5568458" Version="1.0.0" Language="en-US" Publisher="Zingabopp" />
         <DisplayName>UnityModdingTools.Templates.BeatSaber</DisplayName>
         <Description xml:space="preserve">Project and Item templates for making Beat Saber mods.</Description>
         <MoreInfo>https://github.com/Zingabopp/UnityModdingTools.Templates.BeatSaber</MoreInfo>
