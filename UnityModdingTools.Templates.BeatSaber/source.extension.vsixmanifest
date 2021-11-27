@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="UnityModdingTools.Templates.BeatSaber.107d46bc-376e-4542-8383-e9d8b5568457" Version="1.0" Language="en-US" Publisher="Jared Ball" />
-        <DisplayName>UnityModdingTools.Templates.BeatSaber</DisplayName>
-        <Description>Empty VSIX Project.</Description>
-    </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)">
-            <ProductArchitecture>amd64</ProductArchitecture>
-        </InstallationTarget>
-    </Installation>
-    <Dependencies>
-        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
-    </Dependencies>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="BSIPA Plugin (Bare)" d:TargetPath="|BSIPA Plugin (Bare);TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" TargetVersion="[16.0, 18.0)" />
-    </Assets>
-    <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0, 18.0)" DisplayName="Visual Studio core editor" />
-    </Prerequisites>
+	<Metadata>
+		<Identity Id="UnityModdingTools.Templates.BeatSaber.107d46bc-376e-4542-8383-e9d8b5568457" Version="1.0" Language="en-US" Publisher="Jared Ball" />
+		<DisplayName>UnityModdingTools.Templates.BeatSaber</DisplayName>
+		<Description xml:space="preserve">Empty VSIX Project.</Description>
+	</Metadata>
+	<Installation>
+		<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)">
+			<ProductArchitecture>amd64</ProductArchitecture>
+		</InstallationTarget>
+		<InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+			<ProductArchitecture>amd64</ProductArchitecture>
+		</InstallationTarget>
+		<InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+			<ProductArchitecture>amd64</ProductArchitecture>
+		</InstallationTarget>
+		<InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Community">
+			<ProductArchitecture>x86</ProductArchitecture>
+		</InstallationTarget>
+		<InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+			<ProductArchitecture>x86</ProductArchitecture>
+		</InstallationTarget>
+		<InstallationTarget Version="[16.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
+			<ProductArchitecture>x86</ProductArchitecture>
+		</InstallationTarget>
+	</Installation>
+	<Dependencies>
+		<Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+	</Dependencies>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="BSIPA Plugin (Bare)" d:TargetPath="|BSIPA Plugin (Bare);TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" TargetVersion="[16.0, 18.0)" />
+		<Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="BSIPA Plugin (Core)" TargetVersion="[16.0, 18.0)" d:TargetPath="|BSIPA Plugin (Core);TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+		<Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="BSIPA Plugin (Disableable)" TargetVersion="[16.0, 18.0)" d:TargetPath="|BSIPA Plugin (Disableable);TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+	</Assets>
+	<Prerequisites>
+		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0, 18.0)" DisplayName="Visual Studio core editor" />
+		<Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[16.0,18.0)" DisplayName="C# and Visual Basic" />
+	</Prerequisites>
 </PackageManifest>

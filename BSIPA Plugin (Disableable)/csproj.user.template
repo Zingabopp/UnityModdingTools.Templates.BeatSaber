@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+	<PropertyGroup>
+		<BeatSaberDir><!--Path to your Beat Saber folder (used for references)--></BeatSaberDir>
+		
+		<!-- Path to your Beat Saber install, only set if different from BeatSaberDir. -->
+		<!--<GameDirectory></GameDirectory>-->
+	</PropertyGroup>
+</Project>

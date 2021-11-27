@@ -7,6 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityModdingTools.Templates
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSIPA Plugin (Bare)", "BSIPA Plugin (Bare)\BSIPA Plugin (Bare).csproj", "{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectTemplates", "ProjectTemplates", "{F5B83955-B67B-4F5E-8CF1-761A472E8174}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ItemTemplates", "ItemTemplates", "{F02CB989-1B9F-405D-ACDB-9D623E1A2D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSIPA Plugin (Core)", "BSIPA Plugin (Core)\BSIPA Plugin (Core).csproj", "{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSIPA Plugin (Disableable)", "BSIPA Plugin (Disableable)\BSIPA Plugin (Disableable).csproj", "{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,9 +39,30 @@ Global
 		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Release|x86.ActiveCfg = Release|x86
 		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}.Release|x86.Build.0 = Release|x86
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}.Debug|x86.ActiveCfg = Debug|x86
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}.Debug|x86.Build.0 = Debug|x86
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}.Release|x86.ActiveCfg = Release|x86
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B}.Release|x86.Build.0 = Release|x86
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}.Debug|x86.ActiveCfg = Debug|x86
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}.Debug|x86.Build.0 = Debug|x86
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}.Release|x86.ActiveCfg = Release|x86
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2} = {F5B83955-B67B-4F5E-8CF1-761A472E8174}
+		{FDD1EB88-E09B-4A1A-8269-1DA738930B5B} = {F5B83955-B67B-4F5E-8CF1-761A472E8174}
+		{F87FD4E5-9CC9-4E02-B5BF-E8E65665375F} = {F5B83955-B67B-4F5E-8CF1-761A472E8174}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38368BF1-E23C-4465-AE8A-F8B74CBE7B63}
