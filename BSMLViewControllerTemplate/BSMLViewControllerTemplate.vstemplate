@@ -2,7 +2,7 @@
 <VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
   <TemplateData>
     <Name>BSML ViewController</Name>
-    <Description>Creates a BSMLResourceViewController with an associated .bsml file.</Description>
+    <Description>Creates a BSMLAutomaticViewController with an associated .bsml file.</Description>
     <Icon>BSMLViewControllerIcon.png</Icon>
     <TemplateID>d1d7006e-376f-4a4d-a946-ab3c79deda1e</TemplateID>
     <ProjectType>CSharp</ProjectType>
