@@ -10,5 +10,9 @@ Project Templates
 Item Templates
 * BSML File
 * BSML ViewController
+* BSML ViewController (Bare)
 * Harmony Patch
+* Harmony Patch (Bare)
 * MonoBehaviour
+* MonoBehaviour (Bare)
+* Zenject Installer

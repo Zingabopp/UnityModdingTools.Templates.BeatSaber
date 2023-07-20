@@ -18,14 +18,14 @@ namespace $rootnamespace$
         /// </summary>
         private void Awake()
         {
-            
+
         }
         /// <summary>
         /// Only ever called once on the first frame the script is Enabled. Start is called after every other script's Awake() and before Update().
         /// </summary>
         private void Start()
         {
-            
+
         }
 
         /// <summary>
