@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="UnityModdingTools.Templates.BeatSaber.107d46bc-376e-4542-8383-e9d8b5568458" Version="1.0.0" Language="en-US" Publisher="Zingabopp" />
+        <Identity Id="UnityModdingTools.Templates.BeatSaber.107d46bc-376e-4542-8383-e9d8b5568458" Version="1.1.0" Language="en-US" Publisher="Zingabopp" />
         <DisplayName>UnityModdingTools.Templates.BeatSaber</DisplayName>
         <Description xml:space="preserve">Project and Item templates for making Beat Saber mods.</Description>
         <MoreInfo>https://github.com/Zingabopp/UnityModdingTools.Templates.BeatSaber</MoreInfo>
@@ -40,6 +40,10 @@
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="HarmonyPatchItemTemplate" d:TargetPath="|HarmonyPatchItemTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" TargetVersion="[16.0, 18.0)" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="BSMLViewControllerTemplate" d:TargetPath="|BSMLViewControllerTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" TargetVersion="[16.0, 18.0)" />
         <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="MonoBehaviourTemplate" TargetVersion="[16.0, 18.0)" d:TargetPath="|MonoBehaviourTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="BareHarmonyPatchItemTemplate" TargetVersion="[16.0, 18.0)" d:TargetPath="|BareHarmonyPatchItemTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="ZenjectInstallerTemplate" TargetVersion="[16.0, 18.0)" d:TargetPath="|ZenjectInstallerTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" TargetVersion="[16.0, 18.0)" d:ProjectName="BareMonoBehaviourTemplate" d:TargetPath="|BareMonoBehaviourTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="Project" d:ProjectName="BareBSMLViewControllerTemplate" TargetVersion="[16.0, 18.0)" d:TargetPath="|BareBSMLViewControllerTemplate;TemplateProjectOutputGroup|" Path="ItemTemplates" d:VsixSubPath="ItemTemplates" />
     </Assets>
     <Prerequisites>
         <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0, 18.0)" DisplayName="Visual Studio core editor" />

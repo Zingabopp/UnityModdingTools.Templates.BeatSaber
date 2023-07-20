@@ -57,6 +57,34 @@
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.0.5233" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BareBSMLViewControllerTemplate\BareBSMLViewControllerTemplate.csproj">
+      <Project>{9BF3E802-A0B6-4AE6-93B5-6C5162107D3D}</Project>
+      <Name>BareBSMLViewControllerTemplate</Name>
+      <VSIXSubPath>ItemTemplates\Beat Saber</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\BareHarmonyPatchItemTemplate\BareHarmonyPatchItemTemplate.csproj">
+      <Project>{8379ACCC-B8C0-4D54-AB47-F3CCB95A6E4B}</Project>
+      <Name>BareHarmonyPatchItemTemplate</Name>
+      <VSIXSubPath>ItemTemplates\Beat Saber</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\BareMonoBehaviourTemplate\BareMonoBehaviourTemplate.csproj">
+      <Project>{230919A9-533E-4E8A-88DB-13CBE4ACA7DA}</Project>
+      <Name>BareMonoBehaviourTemplate</Name>
+      <VSIXSubPath>ItemTemplates\Beat Saber</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
+    <ProjectReference Include="..\BareZenjectInstallerTemplate\ZenjectInstallerTemplate.csproj">
+      <Project>{162BA0F8-DA9B-4C86-94D7-B19F8671BF09}</Project>
+      <Name>ZenjectInstallerTemplate</Name>
+      <VSIXSubPath>ItemTemplates\Beat Saber</VSIXSubPath>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <IncludeOutputGroupsInVSIX>TemplateProjectOutputGroup%3b</IncludeOutputGroupsInVSIX>
+    </ProjectReference>
     <ProjectReference Include="..\BSIPA Plugin %28Bare%29\BSIPA Plugin %28Bare%29.csproj">
       <Project>{D65B6E11-9D26-4ADB-B9FA-9C962827D2F2}</Project>
       <Name>BSIPA Plugin %28Bare%29</Name>
